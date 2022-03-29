@@ -15,24 +15,25 @@ def main():
 
  # Table using Format
     # phần định dạng
-    row_1 = '+ {:-<6} + {:-^15} + {:->10} +'.format('', '', '')
-    row_2 = '| {:^6} | {:^15} | {:^10} |'.format('ID', 'Ho va ten', 'Noi sinh')
-    row_3 = '| {:^6} | {:^15} | {:^10} |'.format('123', 'Kteam', 'TP HCM')
-    row_4 = '| {:^6} | {:^15} | {:^10} |'.format('6969', 'Kquiz', 'Da Lat')
-    row_5 = '+ {:-<6} + {:-^15} + {:->10} +'.format('', '', '')
+    row_1 = '+ {:-^6} + {:-^15} + {:-^10} +'.format('', '', '')
+    row_2 = '| {:<6} | {:^15} | {:^10} |'.format('ID', 'Ho va ten', 'Noi sinh')
+    row_3 = '| {:<6} | {:^15} | {:^10} |'.format('123', 'Kteam', 'TP HCM')
+    row_4 = '| {:<6} | {:^15} | {:^10} |'.format('6969', 'Kquiz', 'Da Lat')
+    row_5 = '+ {:-^6} + {:-^15} + {:-^10} +'.format('', '', '')
     # phần xuất kết quả
     print(row_1)
     print(row_2)
     print(row_3)
     print(row_4)
     print(row_5)
- #Test code
-    print(VitriChar)
-    print(str2 + "\t" + str(int_1))
-    print(str3)
-    print(str4 %(1, 'My'))
-    print(str5 %(int_1))
-    
+    #title
+    str6 = "nam vip pro"
+    str7 = str6.title()
+    print(str7)
+
+
+ 
+
 if __name__ == "__main__":
     main()
    
